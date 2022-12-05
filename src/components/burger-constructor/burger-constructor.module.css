@@ -1,0 +1,46 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sublist {
+  max-height: 464px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.sublist::-webkit-scrollbar {
+  background-color: #2F2F37;
+  width: 8px;
+}
+
+.sublist::-webkit-scrollbar-thumb {
+ background-color: #8585AD;
+}
+
+.item {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+}
